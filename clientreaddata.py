@@ -2,9 +2,9 @@ import serial
 
 #the port will depend on your computer
 #for windows it will be COM(something)
-PORT = "COM3"
+#PORT = "COM3"
 #for a raspberry pi it will probably be /dev/ttyACM0
-#PORT = "/dev/ttyACM0"
+PORT = "/dev/ttyACM0"
 BAUD = 115200
 
 s = serial.Serial(PORT)
